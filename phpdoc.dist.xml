@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>HiiTV</title>
+  <parser>
+    <target>./docs</target>
+  </parser>
+  <transformer>
+    <target>./docs</target>
+  </transformer>
+  <transformations>
+    <template name="clean" />
+  </transformations>
+  <files>
+    <directory>.</directory>
+    <ignore>assets/*</ignore>
+    <ignore>lib/*</ignore>
+  </files>
+</phpdoc>

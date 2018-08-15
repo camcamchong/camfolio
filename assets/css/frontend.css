@@ -1,0 +1,172 @@
+/* GENERAL STYLING  */
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  }
+  
+.camfolio-template-default{
+	background: #f4f4f4;
+}
+.camfolio-in-grid{
+  /* This forces the website to be as wide as it can, but still maxes out at 1100px */
+  /* Auto forces it to be centered */
+  max-width:1100px;
+  width:100%;
+  margin: auto;
+}
+
+.camfolio-row{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.camfolio-button{
+	padding: 0.6em 2em .6em 2em;
+	text-transform: uppercase;
+	border-radius: 2px;
+	text-decoration: none;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.camfolio-opening-text{
+	padding: 1em 5em;
+}
+
+.camfolio-flex-item{
+	flex: 1 1 auto;
+}
+
+.camfolio-col-3{
+	width:25%;	
+}
+.camfolio-col-4{
+	width: 33%;
+}
+.camfolio-col-8{
+	width:66%;
+}
+
+/* COVER SECTION STYLING  */
+
+#camfolio-cover-section{
+	position: relative;
+	padding-top: 30%;
+	top:0;
+	left:0;
+}
+
+#camfolio-cover-section h1, .camfolio-title , .camfolio-white{
+	color : #fff;
+	font-size: 2rem;	
+}
+
+
+.camfolio-container{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	display: flex;
+}
+
+.camfolio-content-container{
+		margin:auto;
+		text-align: center;
+		max-width: 1100px;
+}
+
+
+
+/* ARCHIVE PORTFOLIO STYLING */
+#camfolio-archive{
+	width: 100%;
+
+}
+
+#camfolio-archive *{
+		box-sizing: border-box;
+}
+#camfolio-archive .camfolio-work, .camfolio-recent-works .camfolio-work {
+    padding: 1em;
+}
+
+.camfolio-img{
+	position:relative;
+	padding-top: 100%;
+	overflow:hidden;
+	
+}
+
+.camfolio-img img{
+	position:absolute;
+	top:0;
+	left:0;
+	min-height: 100%;
+	max-height: 100%;
+}
+
+.camfolio-img figcaption{
+	position: absolute;
+	top:100%;
+	left:0;
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	color:white;
+	text-align: center;
+	padding: 60px 0 ;
+	transition: all 0.4s;
+}
+
+
+.camfolio-img:hover figcaption{
+	top:0;
+}
+
+.camfolio-work .camfolio-button {
+    font-size: 0.8rem;
+    color: #fff;
+    border:  solid #fff 1px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.camfolio-work h5{
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    padding-top:0;
+}
+
+.camfolio-work figure{
+	margin: 0;
+}
+
+
+
+/* SINGLE STYLING */
+
+.camfolio-images img{
+	width: 100%;
+	height: auto;
+/* 	max-width: 100%; */
+}
+
+#camfolio-display{
+	padding-right: 1em;
+}
+
+.camfolio_sidebar img {
+    max-width: 100%;
+    height: auto;
+}
